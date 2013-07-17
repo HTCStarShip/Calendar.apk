@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/round_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/title_21" layout="@layout/title_21" />
+    <com.htc.widget.HtcListView android:id="@id/meeting_list" android:background="@com.htc:color/listview_app_background" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/round_bottom_margin" android:cacheColorHint="@*android:color/transparent" android:layout_below="@id/title_21" />
+    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/no_meeting" android:background="@color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/round_bottom_margin" android:text="@string/no_meeting" android:layout_below="@id/title_21" style="@style/no_meeting_style" />
+    <View android:id="@id/top_round" android:background="@com.htc:drawable/trans_topround" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/round_top_margin" android:layout_alignParentTop="true" />
+    <View android:id="@id/bottom_round" android:background="@com.htc:drawable/trans_bottomround" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/round_bottom_margin" android:layout_alignParentBottom="true" />
+</RelativeLayout>

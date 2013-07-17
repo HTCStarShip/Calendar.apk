@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_height">42.0px</dimen>
+    <dimen name="day_names_height">30.0px</dimen>
+    <dimen name="month_cell_width">135.0px</dimen>
+    <dimen name="month_cell_height">40.0px</dimen>
+    <dimen name="icon_calendar_weight_size">104.0px</dimen>
+    <dimen name="icon_calendar_height_size">85.0px</dimen>
+    <dimen name="icon_calendar_margin_right">56.0px</dimen>
+    <dimen name="icon_month_font_size">13.0px</dimen>
+    <dimen name="icon_date_font_size">32.0px</dimen>
+    <dimen name="week_week_number_width">64.0px</dimen>
+    <dimen name="week_week_day_width">126.0px</dimen>
+</resources>

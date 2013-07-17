@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="agenda_item_declined">#88ffffff</item>
+    <item type="drawable" name="transparent">@*android:color/transparent</item>
+    <item type="drawable" name="white">@*android:color/white</item>
+    <item type="drawable" name="black">@*android:color/black</item>
+    <item type="drawable" name="gray">@color/htc_month_other_month</item>
+    <item type="drawable" name="bg_drawable">@color/listview_bg_color</item>
+    <item type="drawable" name="APKTOOL_DUMMY_007e">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0084">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_0089">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_008a">false</item>
+    <item type="drawable" name="APKTOOL_DUMMY_008b">false</item>
+</resources>

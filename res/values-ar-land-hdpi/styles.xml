@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="htc_MonthView_DayLabel">
+        <item name="android:textSize">22.0px</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/month_cell_width</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">-8.0px</item>
+        <item name="android:antialias">false</item>
+    </style>
+</resources>

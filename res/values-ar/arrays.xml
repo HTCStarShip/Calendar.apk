@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder_minutes_labels">
+        <item>دقيقة واحدة</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>15 دقيقة</item>
+        <item>20 دقيقة</item>
+        <item>25 دقيقة</item>
+        <item>30 دقيقة</item>
+        <item>45 دقيقة</item>
+        <item>ساعة واحدة</item>
+        <item>ساعتان</item>
+        <item>3 ساعات</item>
+        <item>12 ساعة</item>
+        <item>24 ساعة</item>
+        <item>يومان</item>
+        <item>أسبوع واحد</item>
+    </string-array>
+    <string-array name="reminder_minutes_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>جزر مارشال</item>
+        <item>جزر ميدواي</item>
+        <item>هاواي</item>
+        <item>آلاسكا</item>
+        <item>توقيت الباسيفيك</item>
+        <item>تيخوانا</item>
+        <item>أريزونا</item>
+        <item>تشيواوا</item>
+        <item>التوقيت الجبلي</item>
+        <item>أمريكا الوسطى</item>
+        <item>توقيت وسط الولايات المتحدة</item>
+        <item>مكسيكو سيتي</item>
+        <item>ساسكاتشوان</item>
+        <item>بوجوتا</item>
+        <item>توقيت شرق الولايات المتحدة</item>
+        <item>فنزويلا</item>
+        <item>توقيت الأطلنطي</item>
+        <item>ماناوس</item>
+        <item>سانتياجو</item>
+        <item>نيوفوندلاند</item>
+        <item>برازيليا</item>
+        <item>بيونيس أيريس</item>
+        <item>جرينلاند</item>
+        <item>مونتفيديو</item>
+        <item>وسط الأطلنطي</item>
+        <item>جزر الأزور</item>
+        <item>جزر الرأس الأخضر</item>
+        <item>الدار البيضاء</item>
+        <item>لندن، دبلن</item>
+        <item>أمستردام، برلين</item>
+        <item>بلجراد</item>
+        <item>بروكسل</item>
+        <item>سراييفو</item>
+        <item>باريس</item>
+        <item>ويندهوك</item>
+        <item>توقيت غرب أفريقيا</item>
+        <item>عمان، الأردن</item>
+        <item>أثينا، استانبول</item>
+        <item>بيروت، لبنان</item>
+        <item>القاهرة</item>
+        <item>هلسنكي</item>
+        <item>القدس</item>
+        <item>منسك</item>
+        <item>هراري</item>
+        <item>بغداد</item>
+        <item>موسكو</item>
+        <item>الكويت</item>
+        <item>نيروبي</item>
+        <item>طهران</item>
+        <item>باكو</item>
+        <item>تبليسي</item>
+        <item>يرفين</item>
+        <item>دبي</item>
+        <item>كابول</item>
+        <item>إسلام أباد، كراتشي</item>
+        <item>أورالسك</item>
+        <item>إيكترنبرج</item>
+        <item>كلكتا</item>
+        <item>سريلانكا</item>
+        <item>كاتمندو</item>
+        <item>الأستانة</item>
+        <item>يانجون</item>
+        <item>كراسنويارسك</item>
+        <item>بانجكوك</item>
+        <item>بكين</item>
+        <item>هونج كونج</item>
+        <item>إيركوتسك</item>
+        <item>كوالا لامبور</item>
+        <item>بيرث</item>
+        <item>تايبيه</item>
+        <item>سيول</item>
+        <item>طوكيو، أوساكا</item>
+        <item>ياكوتسك</item>
+        <item>أديليد</item>
+        <item>داروين</item>
+        <item>بريسبن</item>
+        <item>هوبارت</item>
+        <item>سيدني، كانبرا</item>
+        <item>فلاديفوستك</item>
+        <item>جوام</item>
+        <item>ماجادان</item>
+        <item>أوكلاند</item>
+        <item>فيجي</item>
+        <item>تونجا</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>Pacific/Majuro</item>
+        <item>Pacific/Midway</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Tijuana</item>
+        <item>America/Phoenix</item>
+        <item>America/Chihuahua</item>
+        <item>America/Denver</item>
+        <item>America/Costa_Rica</item>
+        <item>America/Chicago</item>
+        <item>America/Mexico_City</item>
+        <item>America/Regina</item>
+        <item>America/Bogota</item>
+        <item>America/New_York</item>
+        <item>America/Caracas</item>
+        <item>America/Barbados</item>
+        <item>America/Manaus</item>
+        <item>America/Santiago</item>
+        <item>America/St_Johns</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/Argentina/Buenos_Aires</item>
+        <item>America/Godthab</item>
+        <item>America/Montevideo</item>
+        <item>Atlantic/South_Georgia</item>
+        <item>Atlantic/Azores</item>
+        <item>Atlantic/Cape_Verde</item>
+        <item>Africa/Casablanca</item>
+        <item>Europe/London</item>
+        <item>Europe/Amsterdam</item>
+        <item>Europe/Belgrade</item>
+        <item>Europe/Brussels</item>
+        <item>Europe/Sarajevo</item>
+        <item>Europe/Paris</item>
+        <item>Africa/Windhoek</item>
+        <item>Africa/Brazzaville</item>
+        <item>Asia/Amman</item>
+        <item>Europe/Athens</item>
+        <item>Asia/Beirut</item>
+        <item>Africa/Cairo</item>
+        <item>Europe/Helsinki</item>
+        <item>Asia/Jerusalem</item>
+        <item>Europe/Minsk</item>
+        <item>Africa/Harare</item>
+        <item>Asia/Baghdad</item>
+        <item>Europe/Moscow</item>
+        <item>Asia/Kuwait</item>
+        <item>Africa/Nairobi</item>
+        <item>Asia/Tehran</item>
+        <item>Asia/Baku</item>
+        <item>Asia/Tbilisi</item>
+        <item>Asia/Yerevan</item>
+        <item>Asia/Dubai</item>
+        <item>Asia/Kabul</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Oral</item>
+        <item>Asia/Yekaterinburg</item>
+        <item>Asia/Calcutta</item>
+        <item>Asia/Colombo</item>
+        <item>Asia/Katmandu</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Rangoon</item>
+        <item>Asia/Krasnoyarsk</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Irkutsk</item>
+        <item>Asia/Kuala_Lumpur</item>
+        <item>Australia/Perth</item>
+        <item>Asia/Taipei</item>
+        <item>Asia/Seoul</item>
+        <item>Asia/Tokyo</item>
+        <item>Asia/Yakutsk</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Darwin</item>
+        <item>Australia/Brisbane</item>
+        <item>Australia/Hobart</item>
+        <item>Australia/Sydney</item>
+        <item>Asia/Vladivostok</item>
+        <item>Pacific/Guam</item>
+        <item>Asia/Magadan</item>
+        <item>Pacific/Auckland</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Tongatapu</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>بدون</item>
+        <item>دقيقة واحدة</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>15 دقيقة</item>
+        <item>20 دقيقة</item>
+        <item>25 دقيقة</item>
+        <item>30 دقيقة</item>
+        <item>45 دقيقة</item>
+        <item>ساعة واحدة</item>
+        <item>ساعتان</item>
+        <item>3 ساعات</item>
+        <item>12 ساعة</item>
+        <item>24 ساعة</item>
+        <item>يومان</item>
+        <item>أسبوع واحد</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_values">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+    </string-array>
+    <string-array name="preferences_alert_type_labels">
+        <item>تنبيه</item>
+        <item>إخطار في شريط الحالة</item>
+        <item>غير فعال</item>
+    </string-array>
+    <string-array name="preferences_alert_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="availability">
+        <item>مشغول</item>
+        <item>متوفر</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>افتراضي</item>
+        <item>خاص</item>
+        <item>عام</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>أول</item>
+        <item>ثاني</item>
+        <item>ثالث</item>
+        <item>رابع</item>
+        <item>الأخير</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>(بدون رد)</item>
+        <item>نعم</item>
+        <item>ربما</item>
+        <item>لا</item>
+    </string-array>
+    <string-array name="response_labels2">
+        <item>نعم</item>
+        <item>ربما</item>
+        <item>لا</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>هذا الحدث فقط</item>
+        <item>هذا والأحداث المستقبلية</item>
+        <item>كل الأحداث</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>هذا والأحداث المستقبلية</item>
+        <item>كل الأحداث</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>هذا الحدث فقط</item>
+        <item>كل الأحداث في السلسلة</item>
+    </string-array>
+    <string-array name="htc_share_vcalendar_options">
+        <item>بلوتوث</item>
+        <item>البريد</item>
+        <item>رسالة</item>
+    </string-array>
+    <string-array name="preferences_start_in_labels">
+        <item>شهر</item>
+        <item>جدول الأعمال</item>
+        <item>أسبوع</item>
+        <item>يوم</item>
+    </string-array>
+    <string-array name="preferences_start_in_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="preferences_start_dayview_labels">
+        <item>عرض الوقت</item>
+        <item>عرض الحدث</item>
+    </string-array>
+    <string-array name="preferences_start_dayview_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="preferences_start_weekday_labels">
+        <item>الأحد</item>
+        <item>الاثنين</item>
+    </string-array>
+    <string-array name="preferences_start_weekday_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="importance_level">
+        <item>منخفضة</item>
+        <item>عادية</item>
+        <item>مرتفع</item>
+    </string-array>
+    <string-array name="htc_reminder_minutes_labels">
+        <item>بدون</item>
+        <item>في الوقت المحدد</item>
+        <item>دقيقة واحدة</item>
+        <item>5 دقائق</item>
+        <item>10 دقائق</item>
+        <item>15 دقيقة</item>
+        <item>20 دقيقة</item>
+        <item>25 دقيقة</item>
+        <item>30 دقيقة</item>
+        <item>45 دقيقة</item>
+        <item>ساعة واحدة</item>
+        <item>ساعتان</item>
+        <item>3 ساعات</item>
+        <item>6 ساعات</item>
+        <item>12 ساعة</item>
+        <item>24 ساعة</item>
+        <item>يومان</item>
+        <item>3 أيام</item>
+        <item>أسبوع واحد</item>
+        <item>أسبوعان</item>
+    </string-array>
+    <string-array name="htc_reminder_minutes_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>360</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="htc_response_labels1">
+        <item>متردد</item>
+        <item>الحضور: نعم</item>
+        <item>الحضور: ربما</item>
+        <item>الحضور: لا</item>
+    </string-array>
+    <string-array name="htc_response_labels2">
+        <item>الحضور: نعم</item>
+        <item>الحضور: ربما</item>
+        <item>الحضور: لا</item>
+    </string-array>
+    <string-array name="htc_photo_picker_options">
+        <item>المعرض</item>
+        <item>الكاميرا</item>
+        <item>إزالة صورة</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>دومًا</item>
+        <item>فقط عند الوضع صامت</item>
+        <item>أبدًا</item>
+    </string-array>
+    <string-array name="prefValues_alerts_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+</resources>

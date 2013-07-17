@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scroll_view" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/event" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/compose_title_group" android:background="@com.htc:drawable/common_titlebar_sublevel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0px" android:layout_marginTop="0.0px" android:layout_marginRight="0.0px" android:layout_marginBottom="0.0px">
+                <com.htc.widget.HtcSpinner android:id="@id/calendars" android:background="@com.htc:drawable/command_bar_btn" android:layout_width="fill_parent" android:layout_height="76.0px" android:layout_marginLeft="5.0px" android:layout_marginTop="8.0px" android:layout_marginRight="8.0px" android:layout_marginBottom="0.0px" android:prompt="@string/app_label" />
+                <include layout="@layout/compose_title" />
+                <LinearLayout android:id="@id/dummy_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@com.htc:dimen/compose_edit_margin_vertical" />
+            </LinearLayout>
+            <RelativeLayout android:background="@color/round_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/event2" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/round_bottom_margin" android:layout_alignParentTop="true">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/what_container" style="@style/section_container">
+                        <ImageButton android:layout_gravity="center_vertical" android:id="@id/image_capture_button" android:background="?com.htc:attr_common_button" android:clickable="true" android:layout_width="@com.htc:dimen/detail_title_image_frame_width" android:layout_height="@com.htc:dimen/detail_title_image_frame_height" android:layout_marginLeft="@dimen/p_Left" android:src="@com.htc:drawable/common_icon_default_camera" android:scaleType="centerInside" />
+                        <LinearLayout android:orientation="vertical" android:id="@id/what_container2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <LinearLayout style="@style/section_divider">
+                                <TextView android:id="@id/what_label" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:text="@string/what_label" style="@style/section_divider_text" />
+                            </LinearLayout>
+                            <EditText android:id="@id/title" android:layout_marginLeft="@dimen/p_InputLeft" android:layout_marginRight="@dimen/p_InputLeft" android:hint="@string/hint_what" android:capitalize="sentences" style="@style/inputfield" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/when_from_container" style="@style/section_container">
+                        <LinearLayout style="@style/section_divider">
+                            <View android:background="@com.htc:drawable/common_list_divider" style="@style/line_divider_edit_event" />
+                            <TextView android:id="@id/from_label" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:text="@string/edit_event_from_label" style="@style/section_divider_text" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <Button android:ellipsize="marquee" android:id="@id/start_date" android:background="?com.htc:attr_common_button_small" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/p_InputLeft" android:minWidth="0.0px" android:minHeight="0.0px" android:singleLine="true" android:layout_weight="7.0" android:marqueeRepeatLimit="marquee_forever" style="@com.htc:style/list_primary_m" />
+                            <Button android:id="@id/start_time" android:background="?com.htc:attr_common_button_small" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="0.0px" android:minHeight="0.0px" android:singleLine="true" android:layout_weight="3.5" style="@com.htc:style/list_primary_m" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:gravity="left" android:id="@id/start_date_home" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.EditEvent_homeTime" />
+                            <TextView android:gravity="right" android:id="@id/start_time_home" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.EditEvent_homeTime" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/when_to_container" style="@style/section_container">
+                        <LinearLayout style="@style/section_divider">
+                            <View android:background="@com.htc:drawable/common_list_divider" style="@style/line_divider_edit_event" />
+                            <TextView android:id="@id/to_label" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:text="@string/edit_event_to_label" style="@style/section_divider_text" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <Button android:ellipsize="marquee" android:id="@id/end_date" android:background="?com.htc:attr_common_button_small" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/p_InputLeft" android:minWidth="0.0px" android:minHeight="0.0px" android:singleLine="true" android:layout_weight="7.0" android:marqueeRepeatLimit="marquee_forever" style="@com.htc:style/list_primary_m" />
+                            <Button android:id="@id/end_time" android:background="?com.htc:attr_common_button_small" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="0.0px" android:minHeight="0.0px" android:singleLine="true" android:layout_weight="3.5" style="@com.htc:style/list_primary_m" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:gravity="left" android:id="@id/end_date_home" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.EditEvent_homeTime" />
+                            <TextView android:gravity="right" android:id="@id/end_time_home" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/TextAppearance.EditEvent_homeTime" />
+                        </LinearLayout>
+                        <LinearLayout android:gravity="right|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0px" android:layout_marginRight="0.0px">
+                            <TextView android:paddingTop="1.0px" android:paddingRight="7.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_event_all_day_label" style="@style/htctext.secondary" />
+                            <CheckBox android:id="@id/is_all_day" android:paddingTop="15.0px" android:paddingBottom="15.0px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0px" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/when_time_zone_container" style="@style/section_container">
+                        <LinearLayout style="@style/section_divider">
+                            <View android:background="@com.htc:drawable/common_list_divider" style="@style/line_divider_edit_event" />
+                            <TextView android:id="@id/timezone_label" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:text="@string/timezone_label" style="@style/section_divider_text" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <Button android:id="@id/timezone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="0.0px" android:minHeight="0.0px" android:contentDescription="@string/timezone_label" style="@style/time_button" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/when_check_calendar_container" style="@style/section_container">
+                        <LinearLayout style="@style/section_divider">
+                            <View android:background="@com.htc:drawable/common_list_divider" style="@style/line_divider_edit_event" />
+                            <TextView android:id="@id/check_calendar_label" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:text="@string/htc_check_conflicts_label" style="@style/section_divider_text" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <Button android:id="@id/check_calendar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="0.0px" android:minHeight="0.0px" android:text="@string/htc_check_calendar_label" android:contentDescription="@string/htc_check_calendar_label" style="@style/time_button" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/where_container" style="@style/section_container">
+                        <LinearLayout style="@style/section_divider">
+                            <View android:background="@com.htc:drawable/common_list_divider" style="@style/line_divider_edit_event" />
+                            <TextView android:id="@id/location_label" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:text="@string/where_label" style="@style/section_divider_text" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:id="@id/where_container2" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <EditText android:id="@id/location" android:layout_width="0.0dip" android:layout_marginTop="@dimen/location_margin_top" android:layout_marginRight="@dimen/p_InputLeft" android:hint="@string/hint_where" android:maxLength="200" android:capitalize="sentences" android:layout_weight="9.0" style="@style/inputfield" />
+                            <ImageView android:layout_gravity="center_vertical" android:id="@id/location_picker" android:background="?com.htc:attr_common_button_xsmall" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/navigate_to_rest" android:scaleType="center" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/description_container" style="@style/section_container">
+                        <LinearLayout style="@style/section_divider">
+                            <View android:background="@com.htc:drawable/common_list_divider" style="@style/line_divider_edit_event" />
+                            <TextView android:id="@id/description_label" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:text="@string/description_label" style="@style/section_divider_text" />
+                        </LinearLayout>
+                        <EditText android:id="@id/description" android:layout_marginLeft="@dimen/p_InputLeft" android:layout_marginRight="@dimen/p_InputLeft" android:hint="@string/hint_description" android:capitalize="sentences" style="@style/inputfield" />
+                        <EditableWebView android:layout_gravity="center_vertical" android:id="@id/description_webview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/hint_description" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/reminders_container" style="@style/section_container">
+                        <LinearLayout style="@style/section_divider">
+                            <View android:background="@com.htc:drawable/common_list_divider" style="@style/line_divider_edit_event" />
+                            <TextView android:id="@id/reminders_label" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:text="@string/reminders_label" style="@style/section_divider_text" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@id/reminder_items_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/attendees_group" android:visibility="gone" style="@style/section_container">
+                        <LinearLayout style="@style/section_divider">
+                            <View android:background="@com.htc:drawable/common_list_divider" style="@style/line_divider_edit_event" />
+                            <TextView android:id="@id/description_label" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:text="@string/attendees_label" style="@style/section_divider_text" />
+                        </LinearLayout>
+                        <MultiAutoCompleteTextView android:id="@id/attendees" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:hint="@string/hint_attendees" android:inputType="textMultiLine|textEmailAddress" android:imeOptions="actionNext" style="@style/inputfield.MultiAutoComplete" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/repeats_container" style="@style/section_container">
+                        <LinearLayout style="@style/section_divider">
+                            <View android:background="@com.htc:drawable/common_list_divider" style="@style/line_divider_edit_event" />
+                            <TextView android:id="@id/repeats_label" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:text="@string/repeats_label" style="@style/section_divider_text" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <com.htc.widget.HtcSpinner android:id="@id/repeats" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:prompt="@string/repeats_label" style="@style/spinner_button" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/importance_container" android:visibility="gone" style="@style/section_container">
+                        <LinearLayout style="@style/section_divider">
+                            <View android:background="@com.htc:drawable/common_list_divider" style="@style/line_divider_edit_event" />
+                            <TextView android:id="@id/importance_label" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:text="@string/importance_label" style="@style/section_divider_text" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <com.htc.widget.HtcSpinner android:entries="@array/importance_level" android:id="@id/importance" android:prompt="@string/importance_label" style="@style/spinner_button" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/extra_options_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <LinearLayout android:id="@id/presence_container" style="@style/section_container">
+                            <View android:background="@com.htc:drawable/common_list_divider" style="@style/line_divider_edit_event" />
+                            <LinearLayout style="@style/section_divider">
+                                <TextView android:id="@id/presence_label" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:text="@string/presence_label" style="@style/section_divider_text" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <com.htc.widget.HtcSpinner android:entries="@array/availability" android:id="@id/availability" android:prompt="@string/presence_label" style="@style/spinner_button" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/privacy_container" style="@style/section_container">
+                            <LinearLayout style="@style/section_divider">
+                                <View android:background="@com.htc:drawable/common_list_divider" style="@style/line_divider_edit_event" />
+                                <TextView android:id="@id/privacy_label" android:paddingLeft="@dimen/p_InputLeft" android:paddingRight="@dimen/p_InputLeft" android:text="@string/privacy_label" style="@style/section_divider_text" />
+                            </LinearLayout>
+                            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <com.htc.widget.HtcSpinner android:entries="@array/visibility" android:id="@id/visibility" android:prompt="@string/privacy_label" style="@style/spinner_button" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <View android:background="@com.htc:drawable/trans_topround" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/round_bottom_margin" android:layout_alignParentTop="true" />
+                <View android:background="@com.htc:drawable/trans_bottomround" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.htc.widget.HtcFooter android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.htc.widget.HtcFooterButton android:id="@id/cmd_bar_btn_2" />
+        <com.htc.widget.HtcFooterButton android:id="@id/cmd_bar_btn_3" />
+        <com.htc.widget.HtcFooterButton android:id="@id/cmd_bar_btn_1" />
+    </com.htc.widget.HtcFooter>
+</LinearLayout>

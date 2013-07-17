@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder_minutes_labels">
+        <item>1분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>15분</item>
+        <item>20분</item>
+        <item>25분</item>
+        <item>30분</item>
+        <item>45분</item>
+        <item>1시간</item>
+        <item>2시간</item>
+        <item>3시간</item>
+        <item>12시간</item>
+        <item>24시간</item>
+        <item>2일</item>
+        <item>1주</item>
+    </string-array>
+    <string-array name="reminder_minutes_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>마셜 제도</item>
+        <item>미드웨이 제도</item>
+        <item>하와이</item>
+        <item>알래스카</item>
+        <item>태평양 표준시</item>
+        <item>티후아나</item>
+        <item>애리조나</item>
+        <item>치와와</item>
+        <item>산지 표준시</item>
+        <item>중앙 아메리카</item>
+        <item>중부 표준시</item>
+        <item>멕시코시티</item>
+        <item>서스캐처원</item>
+        <item>보고타</item>
+        <item>동부 표준시</item>
+        <item>베네수엘라</item>
+        <item>대서양 표준시</item>
+        <item>마나우스</item>
+        <item>산티아고</item>
+        <item>뉴펀들랜드</item>
+        <item>브라질리아</item>
+        <item>부에노스아이레스</item>
+        <item>그린란드</item>
+        <item>몬테비데오</item>
+        <item>중부-대서양</item>
+        <item>아조레스</item>
+        <item>카보베르데 제도</item>
+        <item>카사블랑카</item>
+        <item>런던, 더블린</item>
+        <item>암스테르담/베를린</item>
+        <item>베오그라드</item>
+        <item>브뤼셀</item>
+        <item>사라예보</item>
+        <item>파리</item>
+        <item>빈트후크</item>
+        <item>서아프리카 시간대</item>
+        <item>암만, 요르단</item>
+        <item>아테네, 이스탄불</item>
+        <item>베이루트, 레바논</item>
+        <item>카이로</item>
+        <item>헬싱키</item>
+        <item>예루살렘</item>
+        <item>민스크</item>
+        <item>하라레</item>
+        <item>바그다드</item>
+        <item>모스크바</item>
+        <item>쿠웨이트</item>
+        <item>나이로비</item>
+        <item>테헤란</item>
+        <item>바쿠</item>
+        <item>트빌리시</item>
+        <item>예레반</item>
+        <item>두바이</item>
+        <item>카불</item>
+        <item>이슬라마바드, 카라치</item>
+        <item>우랄스크</item>
+        <item>에카테린부르크</item>
+        <item>콜카타</item>
+        <item>스리랑카</item>
+        <item>카트만두</item>
+        <item>아스타나</item>
+        <item>양곤</item>
+        <item>크라스노야르스크</item>
+        <item>방콕</item>
+        <item>베이징</item>
+        <item>홍콩</item>
+        <item>이르쿠츠크</item>
+        <item>쿠알라룸푸르</item>
+        <item>퍼스</item>
+        <item>타이베이</item>
+        <item>서울</item>
+        <item>도쿄, 오사카</item>
+        <item>야쿠츠크</item>
+        <item>애들레이드</item>
+        <item>다윈</item>
+        <item>브리즈번</item>
+        <item>호바트</item>
+        <item>시드니, 캔버라</item>
+        <item>블라디보스토크</item>
+        <item>괌</item>
+        <item>마가단</item>
+        <item>오클랜드</item>
+        <item>피지</item>
+        <item>통가</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>Pacific/Majuro</item>
+        <item>Pacific/Midway</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Tijuana</item>
+        <item>America/Phoenix</item>
+        <item>America/Chihuahua</item>
+        <item>America/Denver</item>
+        <item>America/Costa_Rica</item>
+        <item>America/Chicago</item>
+        <item>America/Mexico_City</item>
+        <item>America/Regina</item>
+        <item>America/Bogota</item>
+        <item>America/New_York</item>
+        <item>America/Caracas</item>
+        <item>America/Barbados</item>
+        <item>America/Manaus</item>
+        <item>America/Santiago</item>
+        <item>America/St_Johns</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/Argentina/Buenos_Aires</item>
+        <item>America/Godthab</item>
+        <item>America/Montevideo</item>
+        <item>Atlantic/South_Georgia</item>
+        <item>Atlantic/Azores</item>
+        <item>Atlantic/Cape_Verde</item>
+        <item>Africa/Casablanca</item>
+        <item>Europe/London</item>
+        <item>Europe/Amsterdam</item>
+        <item>Europe/Belgrade</item>
+        <item>Europe/Brussels</item>
+        <item>Europe/Sarajevo</item>
+        <item>Europe/Paris</item>
+        <item>Africa/Windhoek</item>
+        <item>Africa/Brazzaville</item>
+        <item>Asia/Amman</item>
+        <item>Europe/Athens</item>
+        <item>Asia/Beirut</item>
+        <item>Africa/Cairo</item>
+        <item>Europe/Helsinki</item>
+        <item>Asia/Jerusalem</item>
+        <item>Europe/Minsk</item>
+        <item>Africa/Harare</item>
+        <item>Asia/Baghdad</item>
+        <item>Europe/Moscow</item>
+        <item>Asia/Kuwait</item>
+        <item>Africa/Nairobi</item>
+        <item>Asia/Tehran</item>
+        <item>Asia/Baku</item>
+        <item>Asia/Tbilisi</item>
+        <item>Asia/Yerevan</item>
+        <item>Asia/Dubai</item>
+        <item>Asia/Kabul</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Oral</item>
+        <item>Asia/Yekaterinburg</item>
+        <item>Asia/Calcutta</item>
+        <item>Asia/Colombo</item>
+        <item>Asia/Katmandu</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Rangoon</item>
+        <item>Asia/Krasnoyarsk</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Irkutsk</item>
+        <item>Asia/Kuala_Lumpur</item>
+        <item>Australia/Perth</item>
+        <item>Asia/Taipei</item>
+        <item>Asia/Seoul</item>
+        <item>Asia/Tokyo</item>
+        <item>Asia/Yakutsk</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Darwin</item>
+        <item>Australia/Brisbane</item>
+        <item>Australia/Hobart</item>
+        <item>Australia/Sydney</item>
+        <item>Asia/Vladivostok</item>
+        <item>Pacific/Guam</item>
+        <item>Asia/Magadan</item>
+        <item>Pacific/Auckland</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Tongatapu</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>없음</item>
+        <item>1분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>15분</item>
+        <item>20분</item>
+        <item>25분</item>
+        <item>30분</item>
+        <item>45분</item>
+        <item>1시간</item>
+        <item>2시간</item>
+        <item>3시간</item>
+        <item>12시간</item>
+        <item>24시간</item>
+        <item>2일</item>
+        <item>1주</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_values">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+    </string-array>
+    <string-array name="preferences_alert_type_labels">
+        <item>경고</item>
+        <item>상태 표시줄 알림</item>
+        <item>끄기</item>
+    </string-array>
+    <string-array name="preferences_alert_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="availability">
+        <item>바쁨</item>
+        <item>가능</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>기본값</item>
+        <item>비공개</item>
+        <item>공개</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>처음</item>
+        <item>2번째</item>
+        <item>3번째</item>
+        <item>4번째</item>
+        <item>마지막</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>(응답 없음)</item>
+        <item>예</item>
+        <item>미정</item>
+        <item>아니요</item>
+    </string-array>
+    <string-array name="response_labels2">
+        <item>예</item>
+        <item>미정</item>
+        <item>아니요</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>이 일정만</item>
+        <item>이번 및 향후 일정</item>
+        <item>모든 일정</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>이번 및 향후 일정</item>
+        <item>모든 일정</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>이번 일정만</item>
+        <item>모든 반복 일정</item>
+    </string-array>
+    <string-array name="htc_share_vcalendar_options">
+        <item>Bluetooth</item>
+        <item>메일</item>
+        <item>메시지</item>
+    </string-array>
+    <string-array name="preferences_start_in_labels">
+        <item>월</item>
+        <item>일정</item>
+        <item>주</item>
+        <item>일</item>
+    </string-array>
+    <string-array name="preferences_start_in_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="preferences_start_dayview_labels">
+        <item>시간 보기</item>
+        <item>일정 보기</item>
+    </string-array>
+    <string-array name="preferences_start_dayview_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="preferences_start_weekday_labels">
+        <item>일요일</item>
+        <item>월요일</item>
+    </string-array>
+    <string-array name="preferences_start_weekday_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="importance_level">
+        <item>낮음</item>
+        <item>보통</item>
+        <item>높음</item>
+    </string-array>
+    <string-array name="htc_reminder_minutes_labels">
+        <item>없음</item>
+        <item>정각</item>
+        <item>1분</item>
+        <item>5분</item>
+        <item>10분</item>
+        <item>15분</item>
+        <item>20분</item>
+        <item>25분</item>
+        <item>30분</item>
+        <item>45분</item>
+        <item>1시간</item>
+        <item>2시간</item>
+        <item>3시간</item>
+        <item>6시간</item>
+        <item>12시간</item>
+        <item>24시간</item>
+        <item>2일</item>
+        <item>3일</item>
+        <item>1주</item>
+        <item>2주</item>
+    </string-array>
+    <string-array name="htc_reminder_minutes_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>360</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="htc_response_labels1">
+        <item>결정하기 힘듬</item>
+        <item>참석: 예</item>
+        <item>참석: 미정</item>
+        <item>참석: 아니오</item>
+    </string-array>
+    <string-array name="htc_response_labels2">
+        <item>참석: 예</item>
+        <item>참석: 미정</item>
+        <item>참석: 아니오</item>
+    </string-array>
+    <string-array name="htc_photo_picker_options">
+        <item>갤러리</item>
+        <item>카메라</item>
+        <item>사진 삭제</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>항상</item>
+        <item>무음 시에만</item>
+        <item>사용 안함</item>
+    </string-array>
+    <string-array name="prefValues_alerts_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+</resources>

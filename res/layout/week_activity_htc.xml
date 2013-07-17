@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/round_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/title_21" layout="@layout/title_21" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/day_names" android:background="@drawable/common_w_separator" android:layout_width="fill_parent" android:layout_height="@dimen/day_names_height" android:layout_below="@id/title_21">
+        <LinearLayout android:gravity="center" android:layout_width="@dimen/week_week_number_width" android:layout_height="fill_parent">
+            <TextView android:textSize="@dimen/week_week_number_text_size" android:textColor="#ff000000" android:gravity="center" android:id="@id/week_number" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <View style="@style/htc_MonthView_DayLabel_Divider" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="@dimen/week_week_day_width" android:layout_height="fill_parent">
+            <TextView android:id="@id/day0" style="@style/htc_WeekView_DayLabel" />
+            <TextView android:id="@id/day0_Number" style="@style/htc_WeekView_DayLabel_Number" />
+        </LinearLayout>
+        <View style="@style/htc_MonthView_DayLabel_Divider" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="@dimen/week_week_day_width" android:layout_height="fill_parent">
+            <TextView android:id="@id/day1" style="@style/htc_WeekView_DayLabel" />
+            <TextView android:id="@id/day1_Number" style="@style/htc_WeekView_DayLabel_Number" />
+        </LinearLayout>
+        <View style="@style/htc_MonthView_DayLabel_Divider" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="@dimen/week_week_day_width" android:layout_height="fill_parent">
+            <TextView android:id="@id/day2" style="@style/htc_WeekView_DayLabel" />
+            <TextView android:id="@id/day2_Number" style="@style/htc_WeekView_DayLabel_Number" />
+        </LinearLayout>
+        <View style="@style/htc_MonthView_DayLabel_Divider" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="@dimen/week_week_day_width" android:layout_height="fill_parent">
+            <TextView android:id="@id/day3" style="@style/htc_WeekView_DayLabel" />
+            <TextView android:id="@id/day3_Number" style="@style/htc_WeekView_DayLabel_Number" />
+        </LinearLayout>
+        <View style="@style/htc_MonthView_DayLabel_Divider" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="@dimen/week_week_day_width" android:layout_height="fill_parent">
+            <TextView android:id="@id/day4" style="@style/htc_WeekView_DayLabel" />
+            <TextView android:id="@id/day4_Number" style="@style/htc_WeekView_DayLabel_Number" />
+        </LinearLayout>
+        <View style="@style/htc_MonthView_DayLabel_Divider" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="@dimen/week_week_day_width" android:layout_height="fill_parent">
+            <TextView android:id="@id/day5" style="@style/htc_WeekView_DayLabel" />
+            <TextView android:id="@id/day5_Number" style="@style/htc_WeekView_DayLabel_Number" />
+        </LinearLayout>
+        <View style="@style/htc_MonthView_DayLabel_Divider" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="@dimen/week_week_day_width" android:layout_height="fill_parent">
+            <TextView android:id="@id/day6" style="@style/htc_WeekView_DayLabel" />
+            <TextView android:id="@id/day6_Number" style="@style/htc_WeekView_DayLabel_Number" />
+        </LinearLayout>
+    </LinearLayout>
+    <ViewSwitcher android:id="@id/switcher" android:background="@color/calendar_grid_area_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/round_bottom_margin" android:layout_below="@id/day_names" android:layout_alignParentBottom="true" />
+    <View android:id="@id/day_names_divider" android:background="@com.htc:drawable/common_list_divider" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_above="@id/switcher" />
+    <View android:id="@id/top_round" android:background="@com.htc:drawable/trans_topround" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/round_top_margin" android:layout_alignParentTop="true" />
+</RelativeLayout>

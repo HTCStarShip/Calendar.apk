@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/event_detail_reminder_item" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="top" android:id="@id/reminder_separator" style="@style/line_divider" />
+    <LinearLayout android:duplicateParentState="true" style="@style/event_info_container">
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/reminder_more_icon" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/p_Left_Location_icon" android:src="@com.htc:drawable/common_more_rest" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:id="@id/reminder" android:paddingLeft="@dimen/padding_left_what" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/event_item_reminder" android:layout_alignParentTop="true" style="@com.htc:style/list_secondary_m" />
+            <TextView android:id="@id/value_reminder" android:paddingLeft="@dimen/padding_left_what" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/event_item_reminder" android:layout_below="@id/reminder" style="@com.htc:style/list_primary_m" />
+            <com.htc.calendar.widget.HtcSpinnerEx android:entries="@array/htc_reminder_minutes_labels" android:id="@id/reminder_value" android:background="@null" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.0" android:layout_toLeftOf="@id/reminder_more_icon" android:layout_toRightOf="@id/reminder" style="@style/spinner_button" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

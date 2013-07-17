@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/preferences_alerts_title" android:key="preferenceReminder">
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/all_calendars" android:key="preferences_apply_settings_to_all_calendar" android:defaultValue="false" />
+        <com.htc.preference.HtcListPreference android:title="@string/preferences_apply_settings_to_title" android:key="preferences_apply_settings_to" android:dialogTitle="@string/preferences_apply_settings_to_dialog" />
+        <com.htc.preference.HtcListPreference android:entries="@array/preferences_alert_type_labels" android:title="@string/preferences_alerts_type_title" android:key="preferences_alerts_type" android:defaultValue="@string/preferences_alerts_type_default" android:dialogTitle="@string/preferences_alerts_type_dialog" android:entryValues="@array/preferences_alert_type_values" />
+        <com.htc.preference.HtcListPreference android:entries="@array/htc_reminder_minutes_labels" android:title="@string/preferences_default_reminder_dialog" android:key="preferences_default_reminder" android:defaultValue="@string/preferences_default_reminder_default" android:dialogTitle="@string/preferences_default_reminder_dialog" android:entryValues="@array/htc_reminder_minutes_values" />
+        <com.htc.calendar.preference.HtcRingtonePreference2 android:title="@string/preferences_alerts_ringtone_title" android:key="preferences_alerts_ringtone" android:defaultValue="content://settings/system/cal_notification" android:dialogTitle="@string/preferences_alerts_ringtone_title" android:ringtoneType="notification" android:showDefault="false" android:showSilent="false" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/preferences_hide_declined_title" android:key="preferences_hide_declined" android:defaultValue="true" />
+    </com.htc.preference.HtcPreferenceCategory>
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/preferences_general_title" android:key="preferenceView">
+        <com.htc.preference.HtcListPreference android:entries="@array/preferences_start_weekday_labels" android:title="@string/preferences_start_weekday_dialog" android:key="preferences_start_weekday" android:defaultValue="@string/preferences_start_weekday_default" android:dialogTitle="@string/preferences_start_weekday_dialog" android:entryValues="@array/preferences_start_weekday_values" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/preferences_lunar_enable_title" android:key="preferences_lunar_enable" android:summary="@string/preferences_lunar_enable_summary" android:defaultValue="true" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/preferences_weather_enable_title" android:key="preferences_weather_enable" android:defaultValue="false" />
+        <com.htc.calendar.widget.HtcListPreferenceContentChanged android:title="@string/weather_city" android:key="preferences_weather_city_list" android:dialogTitle="@string/weather_city" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

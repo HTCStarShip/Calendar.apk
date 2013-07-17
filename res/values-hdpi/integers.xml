@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="event_triangle_width">22</integer>
+    <integer name="event_triangle_height">22</integer>
+    <integer name="event_triangle_margin">2</integer>
+    <integer name="number_of_hours">16</integer>
+    <integer name="icon_calendar_rotate_degree">22</integer>
+    <integer name="icon_month_x_position">66</integer>
+    <integer name="icon_month_y_position">4</integer>
+    <integer name="icon_date_1_x_position">65</integer>
+    <integer name="icon_date_1_y_position">51</integer>
+    <integer name="icon_date_2_x_position">55</integer>
+    <integer name="icon_date_2_y_position">51</integer>
+    <integer name="busy_bit_width">8</integer>
+    <integer name="busy_bit_right_margin">6</integer>
+    <integer name="busy_bit_top_bottom_margin">9</integer>
+    <integer name="month_day_number_left_righ">1</integer>
+    <integer name="month_day_number_up_down">2</integer>
+    <integer name="date_time_picker_center_view">238</integer>
+    <integer name="chinese_text_X">55</integer>
+    <integer name="chinses_text_Y">45</integer>
+    <integer name="chinese_lunar_X">55</integer>
+    <integer name="chinese_lunar_Y">85</integer>
+</resources>

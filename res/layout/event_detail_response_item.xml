@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/event_detail_response_item" android:focusable="true" android:clickable="true" style="@style/event_info_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/response_more_icon" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/p_Left_Location_icon" android:src="@com.htc:drawable/common_more_rest" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/response" android:paddingLeft="@dimen/padding_left_what" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/event_item_response" android:layout_alignParentTop="true" style="@com.htc:style/list_secondary_m" />
+        <TextView android:id="@id/value_response" android:paddingLeft="@dimen/padding_left_what" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/event_item_reminder" android:layout_below="@id/response" style="@com.htc:style/list_primary_m" />
+        <com.htc.calendar.widget.HtcSpinnerEx android:id="@id/response_value" android:background="@null" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.0" android:layout_below="@id/response" style="@style/spinner_button" />
+    </RelativeLayout>
+</LinearLayout>

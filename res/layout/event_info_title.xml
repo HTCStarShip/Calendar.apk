@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.widget.Title1 android:orientation="vertical" android:id="@id/event_info_title" android:layout_width="fill_parent" android:layout_height="@com.htc:dimen/title_1line_height" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/title_1_btn_1x1" android:background="?com.htc:attr_common_titlebar_btn_right" android:layout_width="65.0px" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+    <RelativeLayout android:background="?com.htc:attr_common_titlebar_btn_left" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/title_1_btn_1x1">
+        <TextView android:textSize="@com.htc:dimen/title_text_size" android:textColor="@com.htc:color/titleShadowColor" android:gravity="center" android:id="@id/title_1_txt_1x1_shadow" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="2.0px" android:layout_marginBottom="2.0px" android:singleLine="true" />
+        <TextView android:textSize="@com.htc:dimen/title_text_size" android:textColor="@com.htc:color/titleTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/title_1_txt_1x1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="1.0px" android:singleLine="true" />
+    </RelativeLayout>
+</com.htc.widget.Title1>

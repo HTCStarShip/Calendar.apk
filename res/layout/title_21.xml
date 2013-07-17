@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_21" android:background="@drawable/common_titlebar_detail" android:layout_width="fill_parent" android:layout_height="@dimen/title_height" android:layout_marginTop="@dimen/round_top_margin" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/title_21_text_size" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/title_21_txt_1x1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:singleLine="true" />
+    <View android:id="@id/title_divider" android:background="@com.htc:drawable/common_list_divider" android:layout_width="fill_parent" android:layout_height="2.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

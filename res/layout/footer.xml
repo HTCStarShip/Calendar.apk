@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/cmd_bar_6" android:layout_width="fill_parent" android:layout_height="@com.htc:dimen/cmd_bar_height" android:layout_alignParentBottom="true" style="?com.htc:commandBarBackgroundStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/cmd_bar_imgbtn_1" android:background="?com.htc:attr_common_tab_button_left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@com.htc:dimen/cmd_bar_two_btn_margin" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/cmd_bar_imgbtn_2" android:background="?com.htc:attr_common_tab_button_center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/cmd_bar_imgbtn_3" android:background="?com.htc:attr_common_tab_button_center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/cmd_bar_imgbtn_4" android:background="?com.htc:attr_common_tab_button_center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <ImageButton android:id="@id/cmd_bar_imgbtn_5" android:background="?com.htc:attr_common_tab_button_right" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@com.htc:dimen/cmd_bar_two_btn_margin" android:layout_weight="1.0" />
+</LinearLayout>

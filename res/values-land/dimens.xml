@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="single_all_day_height">34.0px</dimen>
+    <dimen name="max_all_day_height">90.0px</dimen>
+    <dimen name="max_all_day_event_height">32.0px</dimen>
+    <dimen name="all_day_title_height">25.0px</dimen>
+    <dimen name="all_day_divider_height">1.0px</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.htc.preference.HtcPreferenceCategory android:title="@string/preferences_general_title" android:key="preferenceRoot">
+        <com.htc.preference.HtcListPreference android:entries="@array/preferences_start_in_labels" android:title="@string/preferences_start_in_dialog" android:key="preferences_start_in" android:defaultValue="@string/preferences_start_in_default" android:dialogTitle="@string/preferences_start_in_dialog" android:entryValues="@array/preferences_start_in_values" />
+        <com.htc.preference.HtcListPreference android:entries="@array/preferences_start_dayview_labels" android:title="@string/preferences_start_dayview_dialog" android:key="preferences_start_dayview" android:defaultValue="@string/preferences_start_dayview_default" android:dialogTitle="@string/preferences_start_dayview_dialog" android:entryValues="@array/preferences_start_dayview_values" />
+        <com.htc.preference.HtcListPreference android:entries="@array/preferences_start_weekday_labels" android:title="@string/preferences_start_weekday_dialog" android:key="preferences_start_weekday" android:defaultValue="@string/preferences_start_weekday_default" android:dialogTitle="@string/preferences_start_weekday_dialog" android:entryValues="@array/preferences_start_weekday_values" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/preferences_lunar_enable_title" android:key="preferences_lunar_enable" android:summary="@string/preferences_lunar_enable_summary" android:defaultValue="true" />
+        <com.htc.preference.HtcCheckBoxPreference android:title="@string/preferences_weather_enable_title" android:key="preferences_weather_enable" android:defaultValue="false" />
+        <com.htc.preference.HtcListPreference android:title="@string/weather_city" android:key="preferences_weather_city_list" android:dialogTitle="@string/weather_city" />
+    </com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>

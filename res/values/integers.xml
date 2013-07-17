@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="combine_event_offset">0</integer>
+    <integer name="event_triangle_width">30</integer>
+    <integer name="event_triangle_height">30</integer>
+    <integer name="event_triangle_margin">3</integer>
+    <integer name="number_of_hours">14</integer>
+</resources>

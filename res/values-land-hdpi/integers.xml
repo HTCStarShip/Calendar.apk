@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="number_of_hours">8</integer>
+    <integer name="icon_month_x_position">51</integer>
+    <integer name="icon_month_y_position">3</integer>
+    <integer name="icon_date_1_x_position">50</integer>
+    <integer name="icon_date_1_y_position">38</integer>
+    <integer name="icon_date_2_x_position">42</integer>
+    <integer name="icon_date_2_y_position">38</integer>
+    <integer name="date_time_picker_center_view">203</integer>
+    <integer name="chinese_text_X">50</integer>
+    <integer name="chinses_text_Y">35</integer>
+    <integer name="chinese_lunar_X">115</integer>
+    <integer name="chinese_lunar_Y">35</integer>
+</resources>

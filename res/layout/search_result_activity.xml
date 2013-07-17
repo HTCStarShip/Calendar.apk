@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@com.htc:layout/title_1" />
+    <ViewSwitcher android:id="@id/switcher" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@com.htc:id/title_1" />
+    <TextView android:gravity="center" android:orientation="vertical" android:id="@id/empty_view" android:background="@com.htc:drawable/common_glance_bkg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/search_result_not_found" android:layout_below="@com.htc:id/title_1" android:layout_centerVertical="true" style="@style/htc_calendar_list_text" />
+</RelativeLayout>

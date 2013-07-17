@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CalendarTheme_preload" parent="@*android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@*android:color/transparent</item>
+        <item name="com.htc:fakescreenStyle">style_01</item>
+    </style>
+    <style name="CalendarDetail_preload">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="com.htc:fakescreenStyle">style_01</item>
+    </style>
+    <style name="CalendarTheme_Trans_NoTitle">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="CalendarTheme.htc.trans" parent="@style/CalendarTheme">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+    </style>
+    <style name="Theme_preload" parent="@*android:style/Theme">
+        <item name="android:colorBackground">@*android:color/background_light</item>
+        <item name="android:windowBackground">@drawable/preload_no_taskbar</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@drawable/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="no_window_content_overlay">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@drawable/transparent</item>
+    </style>
+    <style name="EditEvent_no_window_content_overlay" parent="@style/no_window_content_overlay">
+        <item name="android:windowBackground">@drawable/common_app_bkg</item>
+    </style>
+    <style name="no_window_content_overlay_bkg" parent="@style/no_window_content_overlay">
+        <item name="android:windowBackground">?com.htc:attr_common_app_bkg</item>
+    </style>
+    <style name="preload_no_taskbar" parent="@style/CalendarTheme">
+        <item name="android:colorBackground">@*android:color/background_light</item>
+        <item name="android:windowBackground">@drawable/preload_no_taskbar</item>
+    </style>
+    <style name="htc_title_bar_base">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/title_height</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+    <style name="htc_title_bar" parent="@style/htc_title_bar_base">
+        <item name="android:background">@com.htc:drawable/common_panel_input_base</item>
+    </style>
+    <style name="htc_title_bar_day_view" parent="@style/htc_title_bar_base">
+        <item name="android:background">@com.htc:drawable/common_titlebar_sublevel</item>
+        <item name="android:layout_height">@dimen/title_height_day_view</item>
+    </style>
+    <style name="htc_event_info_title_bar" parent="@style/htc_title_bar_day_view">
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="htc_title_bar_text">
+        <item name="android:textSize">@dimen/text_size_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="htc_title_bar_text_shadow">
+        <item name="android:textSize">@dimen/text_size_primary</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">1.0px</item>
+        <item name="android:layout_marginBottom">2.0px</item>
+    </style>
+    <style name="htc_event_info_title_bar_text">
+        <item name="android:textSize">@dimen/text_size_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">@dimen/p_Left</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="htc_event_info_title_bar_text_shadow">
+        <item name="android:textSize">@dimen/text_size_primary</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">9.0px</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginRight">1.0px</item>
+        <item name="android:layout_marginBottom">2.0px</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="htc_MonthView_DayLabel">
+        <item name="android:textSize">@dimen/month_week_day_text_size</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/month_cell_width</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">-1.0px</item>
+        <item name="android:antialias">false</item>
+    </style>
+    <style name="htc_MonthView_DayLabel_Divider">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@com.htc:drawable/common_list_divider_vertical</item>
+        <item name="android:layout_width">2.0px</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">-1.0px</item>
+    </style>
+    <style name="htc_WeekView_DayLabel" parent="@style/htc_MonthView_DayLabel">
+        <item name="android:textSize">@dimen/day_bar_text_size</item>
+        <item name="android:textColor">#ff4c4c4c</item>
+        <item name="android:gravity">right|center</item>
+        <item name="android:paddingRight">2.0px</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="htc_WeekView_DayLabel_Number" parent="@style/htc_MonthView_DayLabel">
+        <item name="android:textSize">@dimen/day_bar_text_size</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="shadow_black">
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">-1.0</item>
+        <item name="android:shadowDy">-1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="shadow_black_button">
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="htctext">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:paddingLeft">@dimen/p_Left</item>
+    </style>
+    <style name="htctext.primary" parent="@style/htctext">
+        <item name="android:textSize">@dimen/text_size_primary</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="htctext.secondary" parent="@style/htctext">
+        <item name="android:textSize">@dimen/text_size_secondary</item>
+        <item name="android:textColor">#ff333333</item>
+    </style>
+    <style name="htctext.secondary_subject" parent="@style/htctext">
+        <item name="android:textSize">@dimen/text_size_secondary</item>
+        <item name="android:textColor">#ff000000</item>
+    </style>
+    <style name="htctext.tertiary" parent="@style/htctext">
+        <item name="android:textSize">@dimen/text_size_tertiary</item>
+        <item name="android:textColor">#ff333333</item>
+    </style>
+    <style name="listview_text_primary" parent="@style/htctext.primary">
+        <item name="android:textColor">@color/htc_black_text_white_focused</item>
+    </style>
+    <style name="listview_text_secondary" parent="@style/htctext.secondary">
+        <item name="android:textColor">@color/htc_black_text_white_focused</item>
+    </style>
+    <style name="htc_calendar_list_text" parent="@style/htctext.primary">
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="htc_agendar_date_text_black" parent="@style/htctext.secondary">
+        <item name="android:textColor">#ffaaaaaa</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="htc_agendar_date_text_white" parent="@style/htctext.secondary">
+        <item name="android:textColor">#ff4c4c4c</item>
+    </style>
+    <style name="inputfield" parent="@com.htc:style/input_default_m">
+        <item name="android:textSize">@com.htc:dimen/list_primary_s</item>
+        <item name="android:background">?com.htc:attr_common_inputfield_light</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="inputfield.MultiAutoComplete" parent="@style/inputfield">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:dropDownHeight">@dimen/event_info_item_height</item>
+    </style>
+    <style name="bottom_button_bar">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:paddingLeft">@dimen/bottom_button_bar_p_Left</item>
+        <item name="android:paddingRight">@dimen/bottom_button_bar_p_Right</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/bottom_button_bar_height</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="bottom_button">
+        <item name="android:textSize">@dimen/text_size_primary</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">@dimen/bottom_button_height</item>
+        <item name="android:layout_marginLeft">@dimen/bottom_button_m_Left</item>
+        <item name="android:layout_marginTop">@dimen/bottom_button_m_Top</item>
+        <item name="android:layout_marginRight">@dimen/bottom_button_m_Right</item>
+        <item name="android:layout_marginBottom">@dimen/bottom_button_m_Top</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:maxWidth">@dimen/bottom_button_maxWidth</item>
+    </style>
+    <style name="bottom_button_black">
+        <item name="android:textSize">@dimen/text_size_primary</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/htc_toolbar_button_black</item>
+        <item name="android:layout_height">@dimen/bottom_button_height</item>
+        <item name="android:layout_marginLeft">@dimen/bottom_button_m_Left</item>
+        <item name="android:layout_marginTop">@dimen/bottom_button_m_Top</item>
+        <item name="android:layout_marginRight">@dimen/bottom_button_m_Right</item>
+        <item name="android:layout_marginBottom">@dimen/bottom_button_m_Top</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:maxWidth">@dimen/bottom_button_maxWidth</item>
+    </style>
+    <style name="time_button">
+        <item name="android:textSize">@com.htc:dimen/button_secondary_m</item>
+        <item name="android:textColor">@color/htc_black_text_white_focused</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?com.htc:attr_common_button_small</item>
+        <item name="android:layout_width">0.0px</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="account_button">
+        <item name="android:textSize">@com.htc:dimen/button_secondary_m</item>
+        <item name="android:textColor">@color/htc_white_text_white_focused</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?com.htc:attr_common_button_small</item>
+        <item name="android:layout_width">0.0px</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="spinner_button">
+        <item name="android:textSize">@com.htc:dimen/button_secondary_m</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">@dimen/spin_button_layout_m_Left</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">@dimen/p_SpinnerLeft</item>
+        <item name="android:layout_marginTop">3.0px</item>
+        <item name="android:layout_marginRight">@dimen/p_SpinnerLeft</item>
+        <item name="android:layout_marginBottom">3.0px</item>
+    </style>
+    <style name="spinner_dropdwon">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/p_Left</item>
+    </style>
+    <style name="section_divider">
+        <item name="android:orientation">vertical</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:longClickable">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="section_divider_text">
+        <item name="android:textSize">@com.htc:dimen/list_primary_s</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ff4c4c4c</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="section_container">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/section_container_min_height</item>
+    </style>
+    <style name="event_info_container">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/event_info_item_height</item>
+    </style>
+    <style name="event_info_container_calendar" parent="@style/event_info_container">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">0.0px</item>
+    </style>
+    <style name="line_divider">
+        <item name="android:background">@com.htc:drawable/common_list_divider</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2.0px</item>
+    </style>
+    <style name="line_divider_edit_event" parent="@style/line_divider">
+        <item name="android:layout_marginBottom">@dimen/inputfield_m_Bottom</item>
+    </style>
+    <style name="Theme.Dialog" parent="@*android:style/Theme.Translucent">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="photo_recipient_image">
+        <item name="android:layout_gravity">left|center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">35.0px</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="photo_recipient_button">
+        <item name="android:textSize">@com.htc:dimen/button_secondary_m</item>
+        <item name="android:textColor">@drawable/button_text_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">5.0px</item>
+        <item name="android:paddingRight">5.0px</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">35.0px</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:shadowColor">@color/button_text_shadow_color</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="no_meeting_style">
+        <item name="android:textSize">@com.htc:dimen/title_primary_m</item>
+        <item name="android:textColor">@com.htc:color/titleTextColor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@com.htc:dimen/title_1line_height</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Alert" parent="@*android:style/Theme.Dialog">
+        <item name="android:windowBackground">@null</item>
+    </style>
+    <style name="MinusButton">
+        <item name="android:background">@drawable/btn_circle</item>
+    </style>
+    <style name="PlusButton">
+        <item name="android:background">@drawable/btn_circle</item>
+    </style>
+    <style name="MonthView_DayLabel">
+        <item name="android:textAppearance">@style/TextAppearance.MonthView_DayLabel</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">2.0dip</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:layout_width">29.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="TextAppearance" parent="@*android:style/TextAppearance" />
+    <style name="TextAppearance.MonthView_DayLabel" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/daynames_text_color</item>
+    </style>
+    <style name="TextAppearance.AgendaView_ValueLabel" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@*android:color/black</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Label" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:textColorSecondaryInverse</item>
+        <item name="android:paddingLeft">2.0dip</item>
+    </style>
+    <style name="TextAppearance.EventInfo_Label" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:paddingLeft">2.0dip</item>
+    </style>
+    <style name="TextAppearance.EditEvent_homeTime" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@*android:color/darker_gray</item>
+        <item name="android:paddingRight">2.0dip</item>
+    </style>
+    <style name="EditEvent_Layout">
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingTop">8.0dip</item>
+        <item name="android:paddingRight">7.0dip</item>
+    </style>
+    <style name="TextAppearance.Alert_Title" parent="@style/TextAppearance">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="TextAppearance.Alert_Label" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="TextAppearance.Alert_Value" parent="@style/TextAppearance">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="CalendarTheme" parent="@*android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="MultiStateButton">
+        <item name="android:textAppearance">?android:textAppearanceSmallInverse</item>
+        <item name="android:textColor">@*android:color/primary_text_light</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="WidgetDayOfWeekStyle">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">-5.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="WidgetDateStyle">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">-4.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/note_area" android:background="@com.htc:color/listview_app_background" android:layout_width="fill_parent" android:layout_height="@com.htc:dimen/htc_list_item_height" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/notes_divider" android:background="@com.htc:drawable/common_list_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center" android:id="@id/note_btn" android:background="?com.htc:attr_common_button_small" android:padding="0.0px" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/padding_left_other" android:layout_marginTop="4.0px" android:layout_marginRight="@dimen/padding_left_other" android:layout_marginBottom="4.0px">
+        <LinearLayout android:id="@id/note" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:id="@id/note_img" android:layout_width="@dimen/note_btn_height" android:layout_height="fill_parent" android:src="@drawable/notes" android:scaleType="centerCrop" />
+            <TextView android:textSize="@com.htc:dimen/list_secondary_l" android:textColor="@com.htc:color/black_text_white_focused" android:gravity="center" android:id="@id/note_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

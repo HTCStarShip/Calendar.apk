@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder_minutes_labels">
+        <item>1 minut</item>
+        <item>5 minutit</item>
+        <item>10 minutit</item>
+        <item>15 minutit</item>
+        <item>20 minutit</item>
+        <item>25 minutit</item>
+        <item>30 minutit</item>
+        <item>45 minutit</item>
+        <item>1 tund</item>
+        <item>2 tundi</item>
+        <item>3 tundi</item>
+        <item>12 tundi</item>
+        <item>24 tundi</item>
+        <item>2 päeva</item>
+        <item>1 nädal</item>
+    </string-array>
+    <string-array name="reminder_minutes_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+    </string-array>
+    <string-array name="timezone_labels">
+        <item>Marshalli saared</item>
+        <item>Midway saared</item>
+        <item>Hawaii</item>
+        <item>Alaska</item>
+        <item>Vaikse ookeani aeg</item>
+        <item>Tijuana</item>
+        <item>Arizona</item>
+        <item>Chihuahua</item>
+        <item>Kaljumäestiku aeg</item>
+        <item>Kesk-Ameerika</item>
+        <item>Kesk-Ameerika aeg</item>
+        <item>Mexico City</item>
+        <item>Saskatchewan</item>
+        <item>Bogota</item>
+        <item>Ida-Ameerika aeg</item>
+        <item>Venezuela</item>
+        <item>Atlandi aeg</item>
+        <item>Manaus</item>
+        <item>Santiago</item>
+        <item>Newfoundland</item>
+        <item>Brasiilia</item>
+        <item>Buenos Aires</item>
+        <item>Gröönimaa</item>
+        <item>Montevideo</item>
+        <item>Kesk-Atlandi</item>
+        <item>Assoorid</item>
+        <item>Roheneemesaared</item>
+        <item>Casablanca</item>
+        <item>London, Dublin</item>
+        <item>Amsterdam, Berliin</item>
+        <item>Belgrad</item>
+        <item>Brüssel</item>
+        <item>Sarajevo</item>
+        <item>Pariis</item>
+        <item>Windhoek</item>
+        <item>Lääne-Aafrika aeg</item>
+        <item>Amman, Jordan</item>
+        <item>Ateena, Istanbul</item>
+        <item>Beirut, Liibanon</item>
+        <item>Kairo</item>
+        <item>Helsingi</item>
+        <item>Jeruusalemm</item>
+        <item>Minsk</item>
+        <item>Harare</item>
+        <item>Bagdad</item>
+        <item>Moskva</item>
+        <item>Kuveit</item>
+        <item>Nairobi</item>
+        <item>Teheran</item>
+        <item>Bakuu</item>
+        <item>Thbilisi</item>
+        <item>Jerevan</item>
+        <item>Dubai</item>
+        <item>Kabul</item>
+        <item>Islamabad, Karāchi</item>
+        <item>Oral</item>
+        <item>Jekaterinburg</item>
+        <item>Kolkata</item>
+        <item>Sri Lanka</item>
+        <item>Katmandu</item>
+        <item>Astana</item>
+        <item>Yangon</item>
+        <item>Krasnojarsk</item>
+        <item>Bangkok</item>
+        <item>Peking</item>
+        <item>Hongkong</item>
+        <item>Irkutsk</item>
+        <item>Kuala Lumpur</item>
+        <item>Perth</item>
+        <item>Taipei</item>
+        <item>Sõul</item>
+        <item>Tōkyō, Ōsaka</item>
+        <item>Jakutsk</item>
+        <item>Adelaide</item>
+        <item>Darwin</item>
+        <item>Brisbane</item>
+        <item>Hobart</item>
+        <item>Sydney, Canberra</item>
+        <item>Vladivostok</item>
+        <item>Guam</item>
+        <item>Magadan</item>
+        <item>Auckland</item>
+        <item>Fidži</item>
+        <item>Tonga</item>
+    </string-array>
+    <string-array name="timezone_values">
+        <item>Pacific/Majuro</item>
+        <item>Pacific/Midway</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Anchorage</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Tijuana</item>
+        <item>America/Phoenix</item>
+        <item>America/Chihuahua</item>
+        <item>America/Denver</item>
+        <item>America/Costa_Rica</item>
+        <item>America/Chicago</item>
+        <item>America/Mexico_City</item>
+        <item>America/Regina</item>
+        <item>America/Bogota</item>
+        <item>America/New_York</item>
+        <item>America/Caracas</item>
+        <item>America/Barbados</item>
+        <item>America/Manaus</item>
+        <item>America/Santiago</item>
+        <item>America/St_Johns</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/Argentina/Buenos_Aires</item>
+        <item>America/Godthab</item>
+        <item>America/Montevideo</item>
+        <item>Atlantic/South_Georgia</item>
+        <item>Atlantic/Azores</item>
+        <item>Atlantic/Cape_Verde</item>
+        <item>Africa/Casablanca</item>
+        <item>Europe/London</item>
+        <item>Europe/Amsterdam</item>
+        <item>Europe/Belgrade</item>
+        <item>Europe/Brussels</item>
+        <item>Europe/Sarajevo</item>
+        <item>Europe/Paris</item>
+        <item>Africa/Windhoek</item>
+        <item>Africa/Brazzaville</item>
+        <item>Asia/Amman</item>
+        <item>Europe/Athens</item>
+        <item>Asia/Beirut</item>
+        <item>Africa/Cairo</item>
+        <item>Europe/Helsinki</item>
+        <item>Asia/Jerusalem</item>
+        <item>Europe/Minsk</item>
+        <item>Africa/Harare</item>
+        <item>Asia/Baghdad</item>
+        <item>Europe/Moscow</item>
+        <item>Asia/Kuwait</item>
+        <item>Africa/Nairobi</item>
+        <item>Asia/Tehran</item>
+        <item>Asia/Baku</item>
+        <item>Asia/Tbilisi</item>
+        <item>Asia/Yerevan</item>
+        <item>Asia/Dubai</item>
+        <item>Asia/Kabul</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Oral</item>
+        <item>Asia/Yekaterinburg</item>
+        <item>Asia/Calcutta</item>
+        <item>Asia/Colombo</item>
+        <item>Asia/Katmandu</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Rangoon</item>
+        <item>Asia/Krasnoyarsk</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Irkutsk</item>
+        <item>Asia/Kuala_Lumpur</item>
+        <item>Australia/Perth</item>
+        <item>Asia/Taipei</item>
+        <item>Asia/Seoul</item>
+        <item>Asia/Tokyo</item>
+        <item>Asia/Yakutsk</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Darwin</item>
+        <item>Australia/Brisbane</item>
+        <item>Australia/Hobart</item>
+        <item>Australia/Sydney</item>
+        <item>Asia/Vladivostok</item>
+        <item>Pacific/Guam</item>
+        <item>Asia/Magadan</item>
+        <item>Pacific/Auckland</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Tongatapu</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>Puudub</item>
+        <item>1 minut</item>
+        <item>5 minutit</item>
+        <item>10 minutit</item>
+        <item>15 minutit</item>
+        <item>20 minutit</item>
+        <item>25 minutit</item>
+        <item>30 minutit</item>
+        <item>45 minutit</item>
+        <item>1 tund</item>
+        <item>2 tundi</item>
+        <item>3 tundi</item>
+        <item>12 tundi</item>
+        <item>24 tundi</item>
+        <item>2 päeva</item>
+        <item>1 nädal</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_values">
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+    </string-array>
+    <string-array name="preferences_alert_type_labels">
+        <item>Märguanne</item>
+        <item>Olekuriba teavitus</item>
+        <item>Väljas</item>
+    </string-array>
+    <string-array name="preferences_alert_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="availability">
+        <item>Hõivatud</item>
+        <item>Saadaval</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>Vaikeseaded</item>
+        <item>Privaatne</item>
+        <item>Avalik</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>esimene</item>
+        <item>sekund</item>
+        <item>kolmas</item>
+        <item>neljas</item>
+        <item>viimane</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>(Vastust pole)</item>
+        <item>Jah</item>
+        <item>Võibolla</item>
+        <item>Ei</item>
+    </string-array>
+    <string-array name="response_labels2">
+        <item>Jah</item>
+        <item>Võibolla</item>
+        <item>Ei</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>Ainult see sündmus</item>
+        <item>See ja saabuvad sündmused</item>
+        <item>Kõik sündmused</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>See ja saabuvad sündmused</item>
+        <item>Kõik sündmused</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>Ainult see juhtum</item>
+        <item>Kõik sündmused reas</item>
+    </string-array>
+    <string-array name="htc_share_vcalendar_options">
+        <item>Bluetooth</item>
+        <item>E-kiri</item>
+        <item>Sõnum</item>
+    </string-array>
+    <string-array name="preferences_start_in_labels">
+        <item>Kuu</item>
+        <item>Päevakord</item>
+        <item>Nädal</item>
+        <item>Päev</item>
+    </string-array>
+    <string-array name="preferences_start_in_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="preferences_start_dayview_labels">
+        <item>Kellaaja kuva</item>
+        <item>Sündmuse kuva</item>
+    </string-array>
+    <string-array name="preferences_start_dayview_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="preferences_start_weekday_labels">
+        <item>Pühapäev</item>
+        <item>Esmaspäev</item>
+    </string-array>
+    <string-array name="preferences_start_weekday_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="importance_level">
+        <item>Madal</item>
+        <item>Tavaline</item>
+        <item>Kõrge</item>
+    </string-array>
+    <string-array name="htc_reminder_minutes_labels">
+        <item>Puudub</item>
+        <item>Õigel ajal</item>
+        <item>1 minut</item>
+        <item>5 minutit</item>
+        <item>10 minutit</item>
+        <item>15 minutit</item>
+        <item>20 minutit</item>
+        <item>25 minutit</item>
+        <item>30 minutit</item>
+        <item>45 minutit</item>
+        <item>1 tund</item>
+        <item>2 tundi</item>
+        <item>3 tundi</item>
+        <item>6 tundi</item>
+        <item>12 tundi</item>
+        <item>24 tundi</item>
+        <item>2 päeva</item>
+        <item>3 päeva</item>
+        <item>1 nädal</item>
+        <item>2 nädalat</item>
+    </string-array>
+    <string-array name="htc_reminder_minutes_values">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>360</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>4320</item>
+        <item>10080</item>
+        <item>20160</item>
+    </string-array>
+    <string-array name="htc_response_labels1">
+        <item>Otsustamata</item>
+        <item>Osalemine: jah</item>
+        <item>Osalemine: võibolla</item>
+        <item>Osalemine: ei</item>
+    </string-array>
+    <string-array name="htc_response_labels2">
+        <item>Osalemine: jah</item>
+        <item>Osalemine: võibolla</item>
+        <item>Osalemine: ei</item>
+    </string-array>
+    <string-array name="htc_photo_picker_options">
+        <item>Galerii</item>
+        <item>Kaamera</item>
+        <item>Eemalda foto</item>
+    </string-array>
+    <string-array name="prefEntries_alerts_vibrateWhen">
+        <item>Alati</item>
+        <item>Ainult siis kui hääletu</item>
+        <item>Mitte kunagi</item>
+    </string-array>
+    <string-array name="prefValues_alerts_vibrateWhen">
+        <item>always</item>
+        <item>silent</item>
+        <item>never</item>
+    </string-array>
+</resources>

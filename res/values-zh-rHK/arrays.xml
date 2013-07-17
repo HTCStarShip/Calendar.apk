@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="reminder_minutes_labels">
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+        <item>25 分鐘</item>
+        <item>30 分鐘</item>
+        <item>45 分鐘</item>
+        <item>1 小時</item>
+        <item>2 小時</item>
+        <item>3 小時</item>
+        <item>12 小時</item>
+        <item>24 小時</item>
+        <item>2 天</item>
+        <item>1 週</item>
+    </string-array>
+    <string-array name="reminder_minutes_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_labels">
+        <item>無</item>
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+        <item>25 分鐘</item>
+        <item>30 分鐘</item>
+        <item>45 分鐘</item>
+        <item>1 小時</item>
+        <item>2 小時</item>
+        <item>3 小時</item>
+        <item>12 小時</item>
+        <item>24 小時</item>
+        <item>2 天</item>
+        <item>1 週</item>
+    </string-array>
+    <string-array name="preferences_default_reminder_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+    </string-array>
+    <string-array name="preferences_alert_type_labels">
+        <item>警示</item>
+        <item>狀態列通知</item>
+        <item>關閉</item>
+    </string-array>
+    <string-array name="preferences_alert_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="availability">
+        <item>忙碌</item>
+        <item>有空</item>
+    </string-array>
+    <string-array name="visibility">
+        <item>預設</item>
+        <item>私人</item>
+        <item>公開</item>
+    </string-array>
+    <string-array name="ordinal_labels">
+        <item>第一個</item>
+        <item>第二個</item>
+        <item>第三個</item>
+        <item>第四個</item>
+        <item>最後一個</item>
+    </string-array>
+    <string-array name="response_labels1">
+        <item>(無回應)</item>
+        <item>是</item>
+        <item>也許</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="response_labels2">
+        <item>是</item>
+        <item>也許</item>
+        <item>否</item>
+    </string-array>
+    <string-array name="delete_repeating_labels">
+        <item>僅限此活動</item>
+        <item>這個和未來活動</item>
+        <item>所有活動</item>
+    </string-array>
+    <string-array name="delete_repeating_labels_no_selected">
+        <item>這個和未來活動</item>
+        <item>所有活動</item>
+    </string-array>
+    <string-array name="change_response_labels">
+        <item>僅限此活動</item>
+        <item>所有活動</item>
+    </string-array>
+    <string-array name="htc_share_vcalendar_options">
+        <item>藍牙</item>
+        <item>郵件</item>
+        <item>訊息</item>
+    </string-array>
+    <string-array name="preferences_start_in_labels">
+        <item>月</item>
+        <item>行事曆</item>
+        <item>週</item>
+        <item>天</item>
+    </string-array>
+    <string-array name="preferences_start_in_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="preferences_start_dayview_labels">
+        <item>時間檢視</item>
+        <item>事件檢視</item>
+    </string-array>
+    <string-array name="preferences_start_dayview_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="preferences_start_weekday_labels">
+        <item>星期日</item>
+        <item>星期一</item>
+    </string-array>
+    <string-array name="preferences_start_weekday_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="importance_level">
+        <item>低</item>
+        <item>標準</item>
+        <item>高</item>
+    </string-array>
+    <string-array name="htc_reminder_minutes_labels">
+        <item>無</item>
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+        <item>25 分鐘</item>
+        <item>30 分鐘</item>
+        <item>45 分鐘</item>
+        <item>1 小時</item>
+        <item>2 小時</item>
+        <item>3 小時</item>
+        <item>12 小時</item>
+        <item>24 小時</item>
+        <item>2 天</item>
+        <item>1 週</item>
+    </string-array>
+    <string-array name="htc_reminder_minutes_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+    </string-array>
+    <string-array name="htc_response_labels1">
+        <item>是否參加？</item>
+        <item>參加：是</item>
+        <item>參加：也許</item>
+        <item>參加：否</item>
+    </string-array>
+    <string-array name="htc_response_labels2">
+        <item>參加：是</item>
+        <item>參加：也許</item>
+        <item>參加：否</item>
+    </string-array>
+    <string-array name="htc_preferences_default_reminder_labels">
+        <item>5 分鐘</item>
+        <item>10 分鐘</item>
+        <item>15 分鐘</item>
+        <item>20 分鐘</item>
+        <item>25 分鐘</item>
+        <item>30 分鐘</item>
+        <item>45 分鐘</item>
+        <item>1 小時</item>
+        <item>2 小時</item>
+        <item>3 小時</item>
+        <item>12 小時</item>
+        <item>24 小時</item>
+        <item>2 天</item>
+        <item>1 週</item>
+    </string-array>
+    <string-array name="htc_preferences_default_reminder_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>720</item>
+        <item>1440</item>
+        <item>2880</item>
+        <item>10080</item>
+    </string-array>
+</resources>

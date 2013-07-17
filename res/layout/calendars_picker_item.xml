@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/calendar_item_height" android:minHeight="@dimen/calendar_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/color" android:layout_width="@dimen/calendar_stripe_color_width" android:layout_height="@dimen/calendar_stripe_color_height" />
+    <TextView android:ellipsize="marquee" android:id="@id/calendar" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0px" android:singleLine="true" android:layout_weight="4.0" style="@style/listview_text_primary" />
+    <ImageView android:id="@id/checkbox" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+</LinearLayout>
